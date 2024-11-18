@@ -33,7 +33,7 @@ jobs:
 #         run: go test -race -v ./...
 #         timeout-minutes: 15
   benchmarks:
-    runs-on: architect-template-azlgZogW
+    runs-on: architect-template-RlPBDvWy
     steps:
       - name: Checkout
         uses: actions/checkout@v4
